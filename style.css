@@ -1,7 +1,4 @@
-bg {
-  color: #53124A;
-}
-
-fg {
+body {
+  background-color: #53124A;
   color: #FFD49E;
 }
