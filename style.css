@@ -8,3 +8,21 @@ a {
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.navbar {
+  height: 30px;
+  width: 100%;
+  background: Red;
+}
+
+.content {
+  height: 90%;
+  width: 100%;
+}
+.content .hobbies {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+footer {
+}
