@@ -1,23 +1,39 @@
-body {
+/* body {
   background-color: #54124A;
   color: #FFD49E;
   font-weight: bold;
-}
+} */
 
-a {
+/* a {
   color: #FFFFFF;
   text-decoration: none;
-}
+} */
 
 .navbar {
-  height: 30px;
-  width: 100%;
-  background: Red;
+  background-color: red;
+  display: flex;
+  font-size: 2rem;
+  height: 2.5rem;
+  margin: 0;
+  justify-content: space-around;
+  font-family: cursive;
+}
+.navbar a {
+  text-decoration: none;
+  color: cyan;
+  background-color: red;
+  padding: 0 2.5rem;
+}
+.navbar a:hover {
+  color: red;
+  background-color: cyan;
 }
 
 .content {
-  height: 90%;
+  background-color: green;
+  height: 100%;
   width: 100%;
+  display: box;
 }
 .content .hobbies {
   list-style-type: square;
@@ -25,4 +41,6 @@ a {
 }
 
 footer {
+  background-color: blue;
+  text-align: center;
 }
