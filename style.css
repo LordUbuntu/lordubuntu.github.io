@@ -1,16 +1,15 @@
-/* body {
-  background-color: #54124A;
-  color: #FFD49E;
-  font-weight: bold;
-} */
+body {
+  background-color: #313131;
+  color: #fbfbfb
+}
 
-/* a {
-  color: #FFFFFF;
-  text-decoration: none;
-} */
+footer {
+  text-align: center;
+}
 
 .navbar {
-  background-color: red;
+  background-color: #cc2211;
+  color: #fbfbfb;
   display: flex;
   font-size: 2rem;
   height: 2.5rem;
@@ -19,30 +18,21 @@
   font-family: cursive;
 }
 .navbar a {
+  background-color: #cc2211;
+  color: #fbfbfb;
   text-decoration: none;
-  color: cyan;
-  background-color: red;
   padding: 0 2.5rem;
 }
 .navbar a:hover {
-  color: red;
-  background-color: cyan;
+  background-color: #fbfbfb;
+  color: #cc2211;
 }
 
 .content {
-  background-color: green;
-  height: 100%;
-  width: 100%;
-  margin: auto;
-  display: box;
-  overflow: scroll;
+  text-align: justify-content;
 }
 .content .hobbies {
   list-style-type: square;
   list-style-position: outside;
 }
 
-footer {
-  background-color: blue;
-  text-align: center;
-}
