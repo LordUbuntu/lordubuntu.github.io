@@ -6,6 +6,9 @@ body {
 footer {
   text-align: center;
 }
+footer a {
+  color: #cc2211;
+}
 
 .navbar {
   background-color: #cc2211;
