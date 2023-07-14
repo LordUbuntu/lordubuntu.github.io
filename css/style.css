@@ -10,6 +10,7 @@ footer a {
   color: #cc2211;
 }
 
+
 .navbar {
   background-color: #cc2211;
   color: #fbfbfb;
@@ -31,6 +32,7 @@ footer a {
   color: #cc2211;
 }
 
+
 .content {
   text-align: justify-content;
 }
@@ -39,3 +41,16 @@ footer a {
   list-style-position: outside;
 }
 
+
+.contactform {
+  width: 50%;
+  margin: auto;
+  font-family: sans-serif;
+  border: 1px solid #fbfbfb;
+}
+.contact h1 {
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 3em;
+  width: 100%;
+}
