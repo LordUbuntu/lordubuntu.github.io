@@ -61,3 +61,7 @@ footer a {
 .contact .right {
   padding: 25px;
 }
+.contact h1 {
+  position: relative;
+  padding-bottom: 10px;
+}
