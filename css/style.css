@@ -34,6 +34,8 @@ footer a {
 
 
 .content {
+  width: 100%;
+  height: 100%;
   text-align: justify-content;
 }
 .content .hobbies {
@@ -43,11 +45,16 @@ footer a {
 
 
 .contact {
-  position: relative;
-  display: flex;
+  padding: 20%;
+  max-width: 750px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  width: 100%;
+  text-align: center;
+}
+.contact .left {
   height: 100%;
-  padding: 20px 100px;
+  background: url("../res/jaybee.jpg") no-repeat center;
+  background-size: cover;
 }
