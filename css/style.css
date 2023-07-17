@@ -42,15 +42,12 @@ footer a {
 }
 
 
-.contactform {
-  width: 50%;
-  margin: auto;
-  font-family: sans-serif;
-  border: 1px solid #fbfbfb;
-}
-.contact h1 {
-  text-align: center;
-  color: #fbfbfb;
-  font-size: 3em;
+.contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: 100%;
+  padding: 20px 100px;
 }
