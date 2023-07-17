@@ -30,6 +30,7 @@ footer a {
 .navbar a:hover {
   background-color: #fbfbfb;
   color: #cc2211;
+  transition: .5s;
 }
 
 
@@ -67,6 +68,7 @@ footer a {
   padding-bottom: 10px;
 }
 .content .field {
+  outline: none;
   width: 100%;
   padding: 0.2rem 0.5rem;
   background-color: #313131;
@@ -82,4 +84,19 @@ footer a {
 .content .field:focus {
   background-color: rgba(255, 255, 255, 0.3);
   border: 2px solid #cc2211;
+}
+.content .send {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #cc2211;
+  color: #fbfbfb;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.content .send:hover {
+  background-color: #fbfbfb;
+  color: #cc2211;
+  transition: .5s;
 }
