@@ -100,3 +100,12 @@ footer a {
   color: #cc2211;
   transition: .5s;
 }
+@media screen and (max-width: 750px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .content .left {
+    height: 200px;
+  }
+}
