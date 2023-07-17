@@ -58,3 +58,6 @@ footer a {
   background: url("../res/jaybee.jpg") no-repeat center;
   background-size: cover;
 }
+.contact .right {
+  padding: 25px;
+}
