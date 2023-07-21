@@ -1,3 +1,4 @@
-function form() {
-  // TODO: get form info and make this form action
+function send_contact() {
+  form = document.querySelector('.contact')
+  alert(form.innerHTML)
 }
