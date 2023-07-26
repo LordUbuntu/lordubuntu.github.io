@@ -4,33 +4,53 @@ body {
 }
 
 footer {
+  justify-content: center;
   text-align: center;
 }
 footer a {
   color: #cc2211;
+  font-size: 1.5rem;
+  margin: 16px;
+  transition: 1s ease-in-out;
+}
+footer a:hover {
+  color: #fbfbfb;
+  font-size: 2rem;
 }
 
+h1 {
+  position: relative;
+  padding-bottom: 10px;
+  text-decoration: #313131 underline;
+  transition: text-decoration 1s ease-in-out;
+}
+h1:hover {
+  text-decoration: #cc2211 underline;
+}
 
 .navbar {
   display: flex;
   justify-content: center;
 }
 .navbar a {
+  position: relative;
   background-color: #cc2211;
   color: #fbfbfb;
   font-family: cursive;
   font-size: 2rem;
   text-decoration: none;
+  width: auto;
   height: 2.3rem;
   margin: 10px;
   padding: 5px 20px;
   border: 2px solid #fbfbfb;
   border-radius: 10px;
+  transition: 1s ease-in-out;
 }
 .navbar a:hover {
+  padding: 5px 30px;
   background-color: #fbfbfb;
   color: #cc2211;
-  transition: .777s;
 }
 
 
@@ -53,10 +73,6 @@ footer a {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.contact h1 {
-  position: relative;
-  padding-bottom: 10px;
 }
 .content .field {
   outline: none;
@@ -89,14 +105,19 @@ footer a {
 .content .send:hover {
   background-color: #fbfbfb;
   color: #cc2211;
-  transition: .5s;
+  transition: 1s;
 }
-@media screen and (max-width: 750px) {
-  .content {
-    grid-template-columns: 1fr;
-  }
 
-  .content .left {
-    height: 200px;
+@media screen and (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    margin: 10px 10%;
+    padding: 5px 20px;
+    text-align: center;
+  }
+  .navbar a:hover {
+    padding: 10px 20px;
   }
 }
