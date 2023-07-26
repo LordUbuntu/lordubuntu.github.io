@@ -12,25 +12,25 @@ footer a {
 
 
 .navbar {
-  background-color: #cc2211;
-  color: #fbfbfb;
   display: flex;
-  font-size: 2rem;
-  height: 2.5rem;
-  margin: 0;
-  justify-content: space-around;
-  font-family: cursive;
+  justify-content: center;
 }
 .navbar a {
   background-color: #cc2211;
   color: #fbfbfb;
+  font-family: cursive;
+  font-size: 2rem;
   text-decoration: none;
-  padding: 0 2.5rem;
+  height: 2.3rem;
+  margin: 10px;
+  padding: 5px 20px;
+  border: 2px solid #fbfbfb;
+  border-radius: 10px;
 }
 .navbar a:hover {
   background-color: #fbfbfb;
   color: #cc2211;
-  transition: .7s;
+  transition: .777s;
 }
 
 
@@ -53,15 +53,6 @@ footer a {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.contact .left {
-  height: 100%;
-  padding: 20px;
-  background: url("../res/jaybee.jpg") no-repeat center;
-  background-size: cover;
-}
-.contact .right {
-  padding: 25px;
 }
 .contact h1 {
   position: relative;
