@@ -8,7 +8,7 @@ footer {
   text-align: center;
 }
 footer a {
-  color: #cc2211;
+  color: #cc22FF;
   font-size: 1.5rem;
   margin: 16px;
   transition: 1s ease-in-out;
@@ -25,7 +25,7 @@ h1 {
   transition: text-decoration 1s ease-in-out;
 }
 h1:hover {
-  text-decoration: #cc2211 underline;
+  text-decoration: #cc22ff underline;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ h1:hover {
 }
 .navbar a {
   position: relative;
-  background-color: #cc2211;
+  background-color: #cc22ff;
   color: #fbfbfb;
   font-family: cursive;
   font-size: 2rem;
@@ -50,7 +50,7 @@ h1:hover {
 .navbar a:hover {
   padding: 5px 30px;
   background-color: #fbfbfb;
-  color: #cc2211;
+  color: #cc22ff;
 }
 
 
@@ -90,13 +90,13 @@ h1:hover {
 }
 .content .field:focus {
   background-color: rgba(255, 255, 255, 0.3);
-  border: 2px solid #cc2211;
+  border: 2px solid #cc22ff;
 }
 .content .send {
   width: 100%;
   padding: 0.5rem;
   font-size: 1.2rem;
-  background-color: #cc2211;
+  background-color: #cc22ff;
   color: #fbfbfb;
   cursor: pointer;
   outline: none;
@@ -104,7 +104,7 @@ h1:hover {
 }
 .content .send:hover {
   background-color: #fbfbfb;
-  color: #cc2211;
+  color: #cc22ff;
   transition: 1s;
 }
 
